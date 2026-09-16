@@ -7,7 +7,7 @@ import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ideat.app"),
+  metadataBase: new URL("https://ideat-web.vercel.app"),
   title: "Ideat — Evidence-Based Food & Nutrition Evaluation for iOS and watchOS",
   description: "Real-time packaging OCR, GS1 barcode scanning, and individualized clinical nutrition analysis powered by 10,360+ on-device USDA items and guidelines from ADA, AHA, Harvard T.H. Chan, and AICR.",
   keywords: ["nutrition scanner", "food scanner", "NOVA food classification", "Harvard 10:1 ratio", "celiac safe", "diabetes glucose scanner", "ultra processed food", "on-device OCR"],
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ideat — Precision Nutrition & Food Transparency",
     description: "Scan packaging, evaluate ingredients against 9 clinical health profiles, and uncover ultra-processed foods 100% on-device.",
-    url: "https://ideat.app",
+    url: "https://ideat-web.vercel.app",
     siteName: "Ideat",
     images: [
       {

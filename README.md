@@ -3,7 +3,7 @@
 > **Official Product Website & Legal Compliance Pages for Ideat (iOS & watchOS)**  
 > Built with Next.js (App Router), React 19, TypeScript, and Tailwind CSS.
 
-Live at: **[https://ideat.app](https://ideat.app)** (or your Vercel / Cloudflare deployment)
+Live at: **[https://ideat-web.vercel.app](https://ideat-web.vercel.app)**
 
 ---
 
