@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ProfileShowcase from "./components/ProfileShowcase";
-import { Camera, Barcode, Shield, Cpu, Lock, Watch, Zap, Sparkles, Check, ArrowRight, BookOpen, Layers } from "lucide-react";
+import ScannerDemo from "./components/ScannerDemo";
+import { Camera, Barcode, Shield, Cpu, Lock, Watch, Sparkles, Check, ArrowRight, Layers } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -143,6 +144,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* LIVE INTERACTIVE SCANNER DEMO */}
+      <ScannerDemo />
 
       {/* INTERACTIVE 9 PROFILES */}
       <section id="clinical-profiles" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

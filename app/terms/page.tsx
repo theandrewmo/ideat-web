@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Scale, ArrowLeft, AlertCircle, CheckCircle2, ShieldAlert } from "lucide-react";
+import { Scale, ArrowLeft, AlertCircle } from "lucide-react";
 
 export const metadata = {
   title: "Terms of Service & Medical Disclaimer — Ideat",

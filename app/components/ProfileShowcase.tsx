@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { CheckCircle2, AlertTriangle, XCircle, Sparkles, ShieldCheck, Heart, Activity, Wheat, Sparkle, Flame, Dumbbell, Apple, Search } from "lucide-react";
+import { CheckCircle2, AlertTriangle, XCircle, Sparkles, ShieldCheck } from "lucide-react";
 
 interface HealthProfileDemo {
   id: string;

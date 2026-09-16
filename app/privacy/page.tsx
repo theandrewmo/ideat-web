@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ShieldCheck, ArrowLeft, Lock, EyeOff, ServerOff, KeyRound } from "lucide-react";
+import { ShieldCheck, ArrowLeft, EyeOff, ServerOff, KeyRound } from "lucide-react";
 
 export const metadata = {
   title: "Privacy Policy — Ideat",
