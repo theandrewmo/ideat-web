@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ShieldCheck, ArrowLeft, EyeOff, ServerOff, KeyRound } from "lucide-react";
+import { ShieldCheck, ArrowLeft, EyeOff, ServerOff } from "lucide-react";
 
 export const metadata = {
   title: "Privacy Policy — Ideat",
@@ -43,9 +43,9 @@ export default function PrivacyPage() {
             <p className="text-xs text-slate-400 mt-1">No third-party analytics, ad brokers, or telemetry SDKs installed.</p>
           </div>
           <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800">
-            <KeyRound className="w-5 h-5 text-emerald-400 mb-2" />
-            <h3 className="text-sm font-bold text-white">Encrypted Keychain</h3>
-            <p className="text-xs text-slate-400 mt-1">User credentials remain protected in the hardware Secure Enclave.</p>
+            <ShieldCheck className="w-5 h-5 text-emerald-400 mb-2" />
+            <h3 className="text-sm font-bold text-white">Zero Accounts</h3>
+            <p className="text-xs text-slate-400 mt-1">Direct App Store access with no accounts, logins, or registration required.</p>
           </div>
         </div>
 
@@ -74,26 +74,19 @@ export default function PrivacyPage() {
 
           <section className="space-y-2">
             <h2 className="text-lg font-bold text-white">3. Device Permissions & How They Are Used</h2>
-            <p>Ideat requests the following system permissions exclusively to deliver core features:</p>
+            <p>Ideat requests the following system permission exclusively to deliver core features:</p>
             <ul className="list-disc pl-5 space-y-1 text-slate-400">
               <li>
                 <strong className="text-white">Camera Access (<code className="text-xs text-emerald-400">NSCameraUsageDescription</code>):</strong> Used solely to detect UPC/EAN barcodes in real time and capture packaging for Apple Vision text recognition. Video frames are processed locally on-device and are never uploaded or streamed to external servers.
-              </li>
-              <li>
-                <strong className="text-white">Face ID / Touch ID (<code className="text-xs text-emerald-400">LocalAuthentication</code>):</strong> Used to authorize passkey sign-in securely via your device&apos;s Secure Enclave. Biometric data is managed strictly by iOS and is never accessible to the app.
               </li>
             </ul>
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-white">4. Account Credentials & Keychain Storage</h2>
+            <h2 className="text-lg font-bold text-white">4. Zero Accounts & Local Storage</h2>
             <p>
-              Ideat provides an anonymous <strong>Guest Mode</strong> requiring zero account creation. If you choose to authenticate via <strong>Sign in with Apple</strong> or <strong>Passkeys</strong>:
+              Ideat operates entirely on a direct-access model requiring zero account creation, email sign-ups, or login credentials. Your selected clinical profiles and preferences are stored exclusively on your local device.
             </p>
-            <ul className="list-disc pl-5 space-y-1 text-slate-400">
-              <li>Your identity token and user ID are stored securely in the iOS Keychain using the <code className="text-xs text-emerald-400">kSecAttrAccessibleAfterFirstUnlock</code> attribute.</li>
-              <li>Credentials are protected by hardware encryption and are scoped exclusively to the Ideat bundle identifier.</li>
-            </ul>
           </section>
 
           <section className="space-y-2">
