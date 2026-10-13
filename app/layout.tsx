@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ideat-web.vercel.app"),
-  title: "Ideat — Evidence-Based Food & Nutrition Evaluation for iOS and watchOS",
+  title: "Ideat — Evidence-Based Food & Nutrition Evaluation for iOS",
   description: "Real-time packaging OCR, GS1 barcode scanning, and individualized clinical nutrition analysis powered by 10,360+ on-device USDA items and guidelines from ADA, AHA, Harvard T.H. Chan, and AICR.",
   keywords: ["nutrition scanner", "food scanner", "NOVA food classification", "Harvard 10:1 ratio", "celiac safe", "diabetes glucose scanner", "ultra processed food", "on-device OCR"],
   authors: [{ name: "Ideat Team" }],
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Ideat — Precision Nutrition & Food Transparency",
-    description: "Real-time packaging OCR & clinical food evaluation for iOS and watchOS. 100% on-device & private.",
+    description: "Real-time packaging OCR & clinical food evaluation for iOS. 100% on-device & private.",
     images: ["/app-icon.png"],
   },
   icons: {
@@ -63,7 +63,7 @@ export default function RootLayout({
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-lg tracking-tight text-white flex items-center gap-1.5">
-                  Ideat <span className="text-emerald-400 font-normal text-xs px-1.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">iOS & watchOS</span>
+                  Ideat <span className="text-emerald-400 font-normal text-xs px-1.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">iOS</span>
                 </span>
               </div>
             </Link>

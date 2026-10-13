@@ -4,7 +4,7 @@ import { ShieldCheck, ArrowLeft, EyeOff, ServerOff, KeyRound } from "lucide-reac
 
 export const metadata = {
   title: "Privacy Policy — Ideat",
-  description: "Official Privacy Policy for Ideat iOS and watchOS application.",
+  description: "Official Privacy Policy for Ideat iOS application.",
 };
 
 export default function PrivacyPage() {
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
           <section className="space-y-2">
             <h2 className="text-lg font-bold text-white">1. Introduction & Overview</h2>
             <p>
-              Ideat (&quot;we,&quot; &quot;our,&quot; or &quot;the app&quot;) is committed to protecting your privacy. This Privacy Policy explains our practices regarding data collection, processing, and storage when using the Ideat mobile application for iOS and watchOS.
+              Ideat (&quot;we,&quot; &quot;our,&quot; or &quot;the app&quot;) is committed to protecting your privacy. This Privacy Policy explains our practices regarding data collection, processing, and storage when using the Ideat mobile application for iOS.
             </p>
             <p>
               Our guiding architectural philosophy is simple: <strong className="text-white">your food choices and clinical health conditions are confidential personal information</strong>. Ideat is engineered from the ground up to operate offline with zero cloud dependency.
