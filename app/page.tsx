@@ -209,7 +209,7 @@ export default function HomePage() {
             </div>
             <h4 className="text-xl font-bold text-white">100% On-Device Privacy</h4>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Your dietary health profiles and scanned products never leave your hardware. Biometric Face ID / Touch ID passkeys and offline-first Guest Mode ensure total data sovereignty.
+              Your dietary health profiles and scanned products never leave your hardware. Zero user accounts, zero telemetry, and 100% on-device processing ensure total data sovereignty.
             </p>
           </div>
 
