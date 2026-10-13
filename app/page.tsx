@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProfileShowcase from "./components/ProfileShowcase";
 import ScannerDemo from "./components/ScannerDemo";
-import { Camera, Barcode, Shield, Cpu, Lock, Watch, Sparkles, Check, ArrowRight, Layers } from "lucide-react";
+import { Camera, Barcode, Shield, Cpu, Lock, Activity, Sparkles, Check, ArrowRight, Layers } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -18,7 +18,7 @@ export default function HomePage() {
             {/* Top Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 shadow-sm backdrop-blur-md">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Available for iOS 17+ & watchOS 10+</span>
+              <span>Available for iOS 17+</span>
             </div>
 
             {/* Main Headline */}
@@ -238,11 +238,11 @@ export default function HomePage() {
           {/* Card 6 */}
           <div className="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 space-y-4 hover:border-emerald-500/40 transition-colors">
             <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
-              <Watch className="w-6 h-6" />
+              <Activity className="w-6 h-6" />
             </div>
-            <h4 className="text-xl font-bold text-white">Apple Watch Companion</h4>
+            <h4 className="text-xl font-bold text-white">9 Clinical Dietary Lenses</h4>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Glance at your active clinical dietary profile directly on your wrist with our native watchOS 10 companion app, keeping dietary goals front-of-mind while shopping or dining out.
+              Personalized evaluation across 9 peer-reviewed clinical profiles—from ADA diabetes glycemic targets and AHA sodium thresholds to Celiac gluten safety and NOVA ultra-processed food detection.
             </p>
           </div>
         </div>
@@ -283,7 +283,7 @@ export default function HomePage() {
           </h2>
 
           <p className="text-sm text-slate-400 max-w-md mx-auto">
-            Available on iPhone and Apple Watch. Zero registration required to start scanning.
+            Available on iPhone. Zero registration required to start scanning.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">

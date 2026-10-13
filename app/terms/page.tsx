@@ -45,7 +45,7 @@ export default function TermsPage() {
           <section className="space-y-2">
             <h2 className="text-lg font-bold text-white">1. Acceptance of Terms</h2>
             <p>
-              By downloading, installing, or using the Ideat mobile application for iOS and watchOS, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the application.
+              By downloading, installing, or using the Ideat mobile application for iOS, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the application.
             </p>
           </section>
 

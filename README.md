@@ -1,6 +1,6 @@
 # Ideat Web 🌐
 
-> **Official Product Website & Legal Compliance Pages for Ideat (iOS & watchOS)**  
+> **Official Product Website & Legal Compliance Pages for Ideat (iOS)**  
 > Built with Next.js (App Router), React 19, TypeScript, and Tailwind CSS.
 
 Live at: **[https://ideat-web.vercel.app](https://ideat-web.vercel.app)**
@@ -13,7 +13,7 @@ Live at: **[https://ideat-web.vercel.app](https://ideat-web.vercel.app)**
   * Hero showcase with Neon Biometric App Icon and device mockup.
   * Clinical Trust Bar with 8 scientific authorities (ADA, AHA, Harvard Chan, AICR, AGA, Celiac Disease Foundation, ISSN, NOVA).
   * Interactive 9-Profile Showcase with live food evaluations, evidence rationales, and dietary swaps.
-  * Core technology architecture breakdown (GS1 Modulo-10, Apple Vision OCR, Harvard 10:1 ratio, Retail packshots, watchOS companion).
+  * Core technology architecture breakdown (GS1 Modulo-10, Apple Vision OCR, Harvard 10:1 ratio, Retail packshots, 9 Clinical Dietary Lenses).
 * **Legal & Compliance Pages**:
   * **`/privacy`**: Comprehensive Privacy Policy compliant with Apple App Store Review Guideline 5.1.1 (Zero-Telemetry, 100% on-device processing).
   * **`/terms`**: Terms of Service & Clinical Medical Disclaimer compliant with Apple App Store Review Guideline 1.4.1.
